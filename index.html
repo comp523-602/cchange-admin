@@ -1,0 +1,29 @@
+<html>
+<head>
+
+	<title>cChange Administration</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<style>
+		body, html {margin:0px; padding:30px;}
+		body {font-family:'Helvetica', 'Arial', sans-serif;}
+		input {display:inline-block; font-size:16px; padding:10px 12px; margin-right:10px;}
+		#message {margin-top:10px; font-style:italic;}
+	</style>
+
+</head>
+<body>
+
+	<h1>cChange Charity Administration</h1><br />
+
+	<h2>Invite a new charity user</h2>
+	<p>This user will be sent a token they can use to create their non-profit on cChange. The token will expire in 7 days.</p>
+	<form id="inviteUser">
+		<input id="email" type="text" placeholder="Email" />
+		<input id="password" type="password" placeholder="Admin password" />
+		<input id="submit" type="submit" value="Invite" />
+		<div id="message"></div>
+	</form>
+
+</body>
+</html>
